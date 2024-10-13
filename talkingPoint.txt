@@ -1,0 +1,429 @@
+PROFILE 
+
+ 
+
+IT professional with over 10 years of industrial experience in software development and operation 
+
+Specialized in web application development, infrastructure orchestration and CI/CD pipeline 
+
+Extensive experience with on-premises datacenters as well as cloud 
+
+ 
+
+SKILLS 
+
+ 
+
+ 
+
+Programming/Scripting Languages: Typescript, Kotlin, Powershell, SQL, JavaScript, PHP, Bash, Java, Python, C#, C++, AutoIt 
+
+Web development Knowledge: HTML, CSS, XML, Markdown, JSON 
+
+Library & Framework: JQuery, Laravel, React, Node.js, Angular, Vue.js, Express.js, Django, ASP.NET 
+
+Operating Systems: Windows, Ubuntu, CentOS, Linux 
+
+Automated Continuous Integration / Continuous Delivery (CI/CD) platform/software: Azure DevOps Services, GitLab CI/CD, Teamcity, Jenkins 
+
+Windows server administration: Active directory, Group Policy, DHCP, DNS, Office 365 
+
+Documentation: Confluence, Jira, Oxygen, Netbox 
+
+Web Server: Apache, Nginx 
+
+VOIP technology: Asterisk, webRTC 
+
+DNS: Windows Server DNS, Bind9 
+
+Monitor: Zabbix, Datadog, Prometheus, Grafana, Cacti, Lansweeper, LibreNMS, GraphQL, Loki 
+
+On-premises Hypervisor: HyperV, Proxmox, VMware 
+
+Network storage: Samba, ZFS TrueNAS 
+
+UI/UX Design tools: Figma, Photoshop, Sketch 
+
+Language: Mandarin Chinese and English 
+
+Data structure and algorithms 
+
+Software Development Concepts: Model-view-controller (MVC), Agile Development, OOD, TDD RESTful APIs, microservices architecture 
+
+Cloud Service: AWS, Google Cloud, Azure, EC2, S3, IAM, DynamoDB, Aurora, CloudFormation, CloudWatch 
+
+Game Dev: Unreal, Unity, Robomerge, UGS 
+
+CMS: Wordpress, Magento 
+
+Orchestrations   Infrastructure as code (IaC) technologies: Puppet, Ansible, AWX, Terraform, Cloudformation 
+
+Containerization: Docker, Kubernetes(K8s) 
+
+IDE: VScode, vi, nano, JetBrains, Visual Studio 
+
+Source code version system/tools (VCS):  Git, Perforce, Gitlab, Bitbucket 
+
+Code Review: Gerrit, Helix Swarm, Bitbucket 
+
+SQL & NoSQL Database: PostgreSQL, MySQL, Percona, MongoDB, DynamoDB, Aurora,  Redis 
+
+Dependency manager: Chocolatey, composer, npm 
+
+SSO: Microsoft AD Intergrations 
+
+Soft Skills: People Management, Leadership, Customer service, Problem-solving skills, Ownership mentality, good communication and interpersonal skills, ability to collaborate with others in a geographically distributed team 
+
+Unit Testing: XUnit, NUnit, PHPUnit 
+
+Teaching youth coding: tutor and teacher 
+
+ 
+
+ 
+
+CAREER HISTORY  
+
+ 
+
+TIMBRE GAMES, Vancouver, BC	Jan 2024 – Jun 2024 
+
+    Build Engineer 
+
+    Committed to enhancing development productivity by improving the build farm 
+
+Automatically scaled a build farm on demand 
+
+Automated process to upload the build artifacts to Steam   
+
+Enhanced the maintainability and reliability of the build farm with version control   
+
+Enhanced the security by implementing secret protection mechanisms   
+
+Containerized a Horde build server 
+
+Set up pre-submit CI to validate the code change before the CL was submitted to P4   
+
+Asset validation and blueprint validation   
+
+Baked lightmaps and clean up redirector automatically   
+
+Remarkable Projects 
+
+    Teamcity and AWS auto scaling farm:  
+
+Teamcity has a configuration to set up auto scaling with cloud providers like AWS to have the build agent provisioned on demand. The build agents are EC2 on AWS. After the EC2 instance is spun up, it will get attached to an EBS instance that is associated with the Teamcity build configuration ID. When a Teamcity job starts, it needs to download the game code and asset from Perforce, this process is called checkout, but the Teamcity default checkout process happens before the EC2 gets attached to the EBS, so I had to skip the default checkout process and use a batch script to perform the checkout process after the EBS was attached. 
+
+    Docker Horde build server 
+
+I extracted the Horde files and all its dependencies from the Unreal engine codebase, and then build the Horde docker image, modify the docker-compose.yml to use the right image name before I run docker compose to spin up the server 
+
+ 
+
+OFFWORLD INDUSTRIES, New Westminster, BC	 Mar 2022 – Nov 2023 
+
+    Senior DevOps Engineer | DevOps Administrator 
+
+    Committed to enhancing development productivity by improving the infrastructure and processes 
+
+Reduced incident response time significantly by setting up alerts with Kuma and Grafana   
+
+Increased data reliability dramatically with ZFS configuration and migration 
+
+Delivered over 100 builds daily with CI/CD build pipeline on Teamcity 
+
+Restructured over 100 Active Directory entities and over 10 DNS entries to improve maintainability 
+
+Improved build time by 10% through trimming unnecessary build steps 
+
+Increased build reliability by 20% with dozens of triggers, exception handling and OS optimizations 
+
+Scaled a build farm size by 30% by automating the build infrastructure orchestration with Ansible 
+
+Increased stream merge productivity by 40% by setting up Robomerge-Perforce integration 
+
+Reduced the IT onboarding time by 25% through implementing SSO (single sign-on) integration 
+
+Remarkable Projects 
+
+Perforce LDAP Intergration 
+
+Empower the team to use their Microsoft Active Directory account instead using a separate set of credentials to log into the source code control system call Perforce. It saved hundreds of hours every month for over a hundred employees to manage their accounts. 
+
+Robomerge Intergration 
+
+Integrated an open-source utility in the Unreal Engine to the team’s process to automatically merge code branches and warn people on Slack about any conflicts. IT saved the game team hundreds of hours every month to deal with merge conflicts 
+
+ 
+
+ 
+
+READYMODE(formerly XenCALL), Vancouver, BC	Oct 2019 - Mar 2022 
+
+    CloudOps & Site Reliability Developer | System Administrator 
+
+    Scaled a VOIP web application from 500 users to 10000 users by resolving challenging scalability issues 
+
+Resolved over 400 tickets per year by investigating production issues of a VOIP web application 
+
+Reduced the number of outages by 80% through reconfiguring MySQL database replications 
+
+Increased data reliability by 200% by migration data from on-premises to the cloud 
+
+Provisioned over 700 servers with evolving infrastructure orchestration automations 
+
+Reduced the server capacity outages by 50% by creating decent data visualization reports 
+
+Improved the deployment reliability, visibility and flexibility significantly with a full stack application 
+
+Remarkable Projects 
+
+Infrastructure Provisioning Automation 
+
+    The sale team was doing too well, so our customers grew too rapidly. We needed more servers.  
+
+    We are asked to manually install OS and software dependencies repeatedly to keep up with our growth. I fully committed to the task assigned, but I learn how to automate the process whenever I have time. After a while, I managed make the process 80% faster by automating with Python, Ansible and AutoIT.  
+
+  
+
+Committee II  
+
+    As the number of our servers grow rapidly, code deployment became very unreliable. Things break often. We need to efficiently and reliably deploy the code with the flexibility on who gets what version. I rewrote our code deployment tool called “Committee”. It was faster and kept records in the database. The new deployment tool was faster and more reliable with visibility, flexibility and easy to rollback. 
+
+ 
+
+PAYBYPHONE, Vancouver, BC	Jul 2019 – Oct 2019 
+
+    Software Developer 
+
+    Empowered the parking inspectors to give ticket for parking violations with a C# .NET web APIs 
+
+Improved a .NET application a bit with test-drive development in C# 
+
+Expanded the functionality of an API service by Integrating AWS web services 
+
+Enhanced some AWS cloud infrastructure orchestration with terraform 
+
+READYMODE(formerly XenCALL), Vancouver, BC	Mar 2014 – Jul 2019  
+
+    Programmer Analyst II (Oct 2017 – Jul 2019) 
+
+    Made the customers successful by lead a development team to create excellent products 
+
+Enhanced user experience dramatically by designing and implementing a gamification system 
+
+Empowered the users to visualize their sale/lead performance with a sales-pipeline application 
+
+Freed hundreds of users from frustrations by handling urgent bug fix and server issues 
+
+Described plans clearly by creating use case requirements and implementation specifications 
+
+Fulfilled the responsibility of estimating project timeline and communicating scope 
+
+Ensured product quality by creating test cases, performing tests and code reviews 
+
+Preserved the knowledge by documenting system design and database structure 
+
+Answered technical questions for API integrations by meeting with clients 
+
+Improved the organization performance by coaching and mentoring junior developers 
+
+Maximized team productivity by dividing big projects into small tasks that can be done in parallel 
+
+Remarkable Projects:	 
+
+Gamification Training System 
+
+    Our software was feature rich, but very complex and it takes a long time for users to learn each feature. We need to make the user learn our software in a fun way, and we also need the data to help users. I led a team to create a gamification system to provide quests for users to complete like a video game. Users had the tutorial in a fun way, we also collected data to troubleshoot and evaluate user knowledge 
+
+Sales Pipeline  
+
+    Our customers had a hard time finding out what leads were more effective and where bottlenecks were. We needed to create an application to show the information, but computation is too slow. I used some data caching, data aggregation and query optimization trick to make it fast. As a result, the desired outcome was reached, and the performance of the app was excellent. 
+
+    Programmer Analyst II | Tech support manager (Mar 2016 - Oct 2017) 
+
+    Enhanced the staff performance and compensation transparency by leading and growing a team 
+
+Managed the tech support team and bringing leadership skills back to the dev team 
+
+Reduced management work significantly by creating a performance and payroll system 
+
+Achieved business goals and employee goals by facilitating and growing team members 
+
+Remarkable Projects: 
+
+Tech Support Performance Management System 
+
+The call center tech support agents sometimes came to work late or left work late due to long call. I was asked to create a system to track the time so that we evaluate performance and pay fairly. My app reported on the number of seconds each worker worked and calculate their wages accurately. As a result, people were paid fairly, motivated to come on time and clear on how to get promoted. 
+
+License Management System and Client Payment Portal 
+
+    Our clients had to make payment over the phone, and we didn’t have a way to track the user number. We needed to create a license system to track users and allow clients to make payment on a website. I worked on both backend and frontend of the payment portal and the license system. Then the client was able to pay us conveniently, and the billing team had a way to track licenses. 
+
+ 
+
+    Programmer Analyst I (Mar 2014 – Mar 2016) 
+
+    Empowered the users to have good data and fairly usage by developing a VOIP web application 
+
+Demonstrated the call center staff and lead data by creating various report applications 
+
+Remarkable Projects:	 
+
+Agent Report | Call Log Report | Dialer Report 
+
+    The call center software had lots of data not being well communicated to the users. I was asked to create some reports to pull information from the database and present them to users. I created a few report applications to show the data derived from the database with many features. The users were able to filter, sort and visualize and data quantity with a heatmap color on the table. 
+
+ 
+
+GAMING LABATORIES INTERNATIONAL Burnaby, BC	 Jul 2012 - Jan 2014 
+
+    Interactive Test Engineer  
+
+    Performed and automated gambling game tests to catch bugs and ensure regulation compliance 
+
+Performed source code review on gambling software to ensure fidelity 
+
+Developed software programs to automate repetitive testing procedures 
+
+Performed manual QA tests and regression tests to detect software bugs 
+
+Ensured software is secure and in compliance with government regulations 
+
+ 
+
+EDUCATION & PROFESSIONAL DEVELOPMENT 
+
+ 
+
+Introduction on Deep Learning 	2019 
+
+CLOUDXLAB 
+
+ 
+
+Introduction to Agile and Scrum 	2018 
+
+AGILE 42 
+
+ 
+
+Unity VR Developer Workshop 	2016 
+
+CIRCUIT STREAM 
+
+ 
+
+Bachelor’s Degree in Computer Engineering	2012 
+
+UNIVERSITY OF BRITISH COLUMBIA, Vancouver, BC 
+
+ 
+
+ 
+
+TEACHING EXPERIENCE 
+
+ 
+
+Mar 2009 – 2013 Excellent Tutoring: math/physical/computer science tutor 
+
+Taught high school kids C++ 
+
+ 
+
+Jul 2024 – Now LT Coding Academy: teaching kids JavaScript, Python 
+
+Taught kids with 0 coding background to learn programming 
+
+Helped kids with coding background to prepare American Computer Science League (ACSL) Competition 
+
+ 
+
+VOLUNTEER EXPERIENCE 
+
+ 
+
+Mar 2024 – Now Career Up Club: Technical Manager 
+
+Managing technical related tasks: 
+
+- Delivering content and functionalities to the website 
+
+- Delivering content and improving the social media presence 
+
+ 
+
+Aug 2024 – Now Aeyesafe: DevOps Engineer 
+
+Led a team of designers, frontend developers and backend developers to create web and mobile apps to show data collected from senior care medical devices and send notifications to care givers. The tech stack is react, typescript, Mongodb, Dalfa, GCP and postgres db 
+
+ 
+
+• Work closely with Product Owner, architects, other team members to 
+
+understand story definition and its acceptance criteria, apply the knowledge of 
+
+software engineering knowledge and translate requirements to design and 
+
+implementation. 
+
+• Build a highly integrated DevOps toolchain with observability, automation, 
+
+and AI at the core to help accelerate the speed of delivery, improve code 
+
+quality, and increase DevOps throughput. 
+
+• Perform platform engineering task include writing software and build clolud 
+
+infrastructure to facilitate business need. 
+
+• Perform security analysis and develop programs to support backend services 
+
+and the data pipeline process. 
+
+• System maintenance, update documents, and guarantee data integrity. 
+
+• Build CICD pipeline and system monitoring tools. 
+
+• Build and maintain a 24/7 uptime operational infrastructure. 
+
+• Perform tactical approach by working together with different teams, including 
+
+development and operations teams, to eliminate roadblocks and focus on 
+
+improving the creation, deployment, and continuous monitoring of software. 
+
+• Perform system test, product test, load balancing and other system 
+
+administration task. 
+
+• Perform database administration task. 
+
+• Conferring with teams to resolve conflicts, prioritize needs, develop content 
+
+criteria, or choose solutions. 
+
+• Lead and rallying ever team members around a single source of truth 
+
+enhances communication and builds a culture of trust, collaboration, and 
+
+success. 
+
+• Apply computer science knowledge to tackle challenging engineering 
+
+problems and perform software engineer task. 
+
+• Designing and implementing RestAPI, as well as API documentation 
+
+• Maintaining an understanding of the latest software industry and 
+
+programming practices through education, study, and participation in 
+
+conferences, workshops, and groups. 
+
+• Contribute to deploying application to various environments and apply Data 
+
+Science knowledge of distributed system and machine learning and database 
+
+task. 
