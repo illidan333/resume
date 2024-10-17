@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.16)  16 OCT 2024 15:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.16)  17 OCT 2024 07:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -876,15 +876,15 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 24132 strings out of 473899
- 471460 string characters out of 5726499
+ 24131 strings out of 473899
+ 471432 string characters out of 5726499
  1960960 words of memory out of 5000000
  46580 multiletter control sequences out of 15000+600000
- 684496 words of font info for 64 fonts, out of 8000000 for 9000
+ 684069 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,8n,121p,463b,685s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/hippo/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome/FontAwesome.pfb><C:/Users/hippo/AppData/Local/Programs/MiKTeX/fonts/type1/impallari/raleway/Raleway-Bold.pfb><C:/Users/hippo/AppData/Local/Programs/MiKTeX/fonts/type1/impallari/raleway/Raleway-Italic.pfb><C:/Users/hippo/AppData/Local/Programs/MiKTeX/fonts/type1/impallari/raleway/Raleway-Regular.pfb>
-Output written on resume.pdf (2 pages, 96540 bytes).
+Output written on resume.pdf (2 pages, 96487 bytes).
 PDF statistics:
  58 PDF objects out of 1000 (max. 8388607)
  7 named destinations out of 1000 (max. 500000)

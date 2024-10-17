@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1729118778.71762 "d:/github/resume/resume.tex" "resume.pdf" "resume" 1729118779.61111 0
+["pdflatex"] 1729174586.24007 "d:/github/resume/resume.tex" "resume.pdf" "resume" 1729174587.0336 0
   "C:/Users/hippo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1729118777 116729 7bf881dbc4926319cf56a015a90b391a ""
   "C:/Users/hippo/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1729113369 24265334 3fcbe3e5dd528c48b48ab8264a4d8f4b ""
   "C:/Users/hippo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome/fontawesomeone.enc" 1463869852 1687 f004baecce60175c6453d0e3f808cf20 ""
@@ -175,11 +175,11 @@
   "C:/Users/hippo/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/hippo/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "C:/Users/hippo/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "d:/github/resume/resume.tex" 1729118690 10643 3f84092f04a9f64bedc4157727f65734 ""
+  "d:/github/resume/resume.tex" 1729174585 10611 bb5a58ea3c8cb0ada942a1bed8048b63 ""
   "developercv.cls" 1729118685 7695 b1700ddaf29f0a3ed9ddadadff91042b ""
-  "resume.aux" 1729118779 470 9343f2a4cacbf8960366afb0f21f071f "pdflatex"
-  "resume.out" 1729118779 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "resume.tex" 1729118690 10643 3f84092f04a9f64bedc4157727f65734 ""
+  "resume.aux" 1729174586 470 9343f2a4cacbf8960366afb0f21f071f "pdflatex"
+  "resume.out" 1729174586 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "resume.tex" 1729174585 10611 bb5a58ea3c8cb0ada942a1bed8048b63 ""
   (generated)
   "resume.aux"
   "resume.log"
