@@ -1,267 +1,141 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Developer CV
-% LaTeX Template
-% Version 1.0 (28/1/19)
-%
-% This template originates from:
-% http://www.LaTeXTemplates.com
-%
-% Authors:
-% Jan Vorisek (jan@vorisek.me)
-% Based on a template by Jan Küster (info@jankuester.com)
-% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
-%
-% License:
-% The MIT License (see included LICENSE file)
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%----------------------------------------------------------------------------------------
-%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%----------------------------------------------------------------------------------------
-
-\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
-
-%----------------------------------------------------------------------------------------
+\documentclass[9pt]{developercv}
 
 \begin{document}
 
 %----------------------------------------------------------------------------------------
-%	TITLE AND CONTACT INFORMATION
+%  TITLE AND CONTACT INFORMATION
 %----------------------------------------------------------------------------------------
 
-\begin{minipage}[t]{0.45\textwidth} % 45% of the page width for name
-	\vspace{-\baselineskip} % Required for vertically aligning minipages
-	
-	% If your name is very short, use just one of the lines below
-	% If your name is very long, reduce the font size or make the minipage wider and reduce the others proportionately
-	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Yi Tian (Leo)}}}}} % First name
-	
-	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Liu}}}}} % Last name
-	
-	\vspace{6pt}
-	
-	{\huge} % Career or current job title
+\begin{minipage}[t]{0.45\textwidth}
+  \vspace{-\baselineskip}
+  \colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Yi Tian (Leo)}}}}} 
+  \colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Liu}}}}} 
+  \vspace{6pt}
 \end{minipage}
-\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the first row of icons
-	\vspace{-\baselineskip} % Required for vertically aligning minipages
-	
-	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
-	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
-	\icon{MapMarker}{12}{San Diego, CA, US}\\
-	\icon{Phone}{12}{+1 619 627 1990}\\
-	\icon{At}{12}{\href{mailto:leoyitianliu@gmail.com}{leoyitianliu@gmail.com}}\\	
+\begin{minipage}[t]{0.275\textwidth}
+  \vspace{-\baselineskip}
+  \icon{Linkedin}{12}{\href{https://www.linkedin.com/in/leoyitianliu/}{leoyitianliu}}\\
+  \icon{Phone}{12}{+1 619 627 1990}\\
+  \icon{At}{12}{\href{mailto:leoyitianliu@gmail.com}{leoyitianliu@gmail.com}}\\  
 \end{minipage}
-\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the second row of icons
-	\vspace{-\baselineskip} % Required for vertically aligning minipages
-	
-	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
-	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
-	\icon{Globe}{12}{\href{https://leoyitianliu.com}{leoyitianliu.com}}\\
-	\icon{Github}{12}{\href{https://github.com/illidan333}{github.com/illidan333}}\\
-	\icon{Twitter}{12}{\href{https://twitter.com/@leoyitianliu}{@leoyitianliu}}\\
+\begin{minipage}[t]{0.275\textwidth}
+  \vspace{-\baselineskip}
+  \icon{Globe}{12}{\href{https://leoyitianliu.com}{leoyitianliu.com}}\\
+  \icon{Github}{12}{\href{https://github.com/illidan333}{github.com/illidan333}}\\
+  \icon{Twitter}{12}{\href{https://twitter.com/@leoyitianliu}{@leoyitianliu}}\\
 \end{minipage}
 
 \vspace{0.5cm}
 
 %----------------------------------------------------------------------------------------
-%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%  SUMMARY AND SKILLS
 %----------------------------------------------------------------------------------------
 
 \cvsect{Summary}
 
-\begin{minipage}[t]{0.4\textwidth} % 40% of the page width for the introduction text
-	\vspace{-\baselineskip} % Required for vertically aligning minipages
-    6 years of DevOps Engineer/SRE\newline\newline
-	5 years of Full-stack developer\newline\newline
-    Mastering both cloud and on-premise\newline\newline
-    Experience in large distributed systems\newline\newline
+\begin{minipage}[t]{0.45\textwidth}
+  \vspace{-\baselineskip}
+  Experienced Site Reliability Engineer and Full-Stack Developer with 10+ years building and operating large-scale distributed systems. Passionate about improving reliability, scalability, and developer velocity through automation, object-oriented design, and deep infrastructure knowledge—across cloud and on-prem environments.
 \end{minipage}
-\hfill % Whitespace between
-\begin{minipage}[t]{0.5\textwidth} % 50% of the page for the skills bar chart
-	\vspace{-\baselineskip} % Required for vertically aligning minipages
-	\begin{barchart}{5.5}
-		\baritem{High Reliability and Scalabilty}{70}
-		\baritem{Infra / Config as Code}{90}
-		\baritem{Linux}{90}
-        \baritem{Full Stack Development}{80}
-	\end{barchart}
+\hfill
+\begin{minipage}[t]{0.5\textwidth}
+  \vspace{-\baselineskip}
+  \begin{barchart}{5.5}
+    \baritem{Distributed Systems \& Scalability}{90}
+    \baritem{Kubernetes \& Terraform}{90}
+    \baritem{Python / Go / Java}{85}
+    \baritem{CI/CD Automation}{85}
+    \baritem{Incident Response \& Observability}{80}
+  \end{barchart}
 \end{minipage}
 
 %----------------------------------------------------------------------------------------
-%	EXPERIENCE
+%  EXPERIENCE
 %----------------------------------------------------------------------------------------
 
 \cvsect{Experience}
 
 \begin{entrylist}
-	\entry
-		{2024 - Now}
-		{Site Reliability Engineer}
-		{SHEIN Group - SHEIN Technology LLC}
-		{
-            Ensure the reliability and performance of SHEIN’s large-scale global infrastructure, supporting over 50,000+ servers, petabyte-level data systems, and millions of requests daily.\newline
-
-            - Developed automation tools for disk and network operations, improving operational efficiency and reducing manual intervention by over 70\% across thousands of nodes.\newline
-            - Enhanced system reliability and availability, achieving 99.998\% uptime through proactive on-call response, system testing, chaos drills, and resilience engineering.\newline
-            - Led incident management for high-severity production events, achieving SLA goals of MTTA < 1 min, MTTD < 5 min, and MTTR < 10 min, minimizing user impact and service disruption.\newline
-            - Managed large-scale Kubernetes clusters with thousands of nodes, ensuring seamless deployments, auto-scaling, version upgrades, and resource allocation with zero downtime.\newline
-			- Operated critical infrastructure components (MySQL, Redis, Kafka) under high throughput, optimizing performance and achieving 50\% reduction in average query latency.\newline
-			- Implemented a comprehensive monitoring and alerting stack, enabling real-time observability and early detection, resulting in a 40\% reduction in false positives.\newline
-			- Scaled infrastructure on Microsoft Azure across multiple global regions, achieving 30\% cost optimization while maintaining system performance and availability.\newline
-			- Performed advanced system operations across Unix/Linux servers, using shell scripting and CLI tools to manage infrastructure at scale.\newline\newline
-            \textit{Project: Project: Automated Large-Scale Disk Replacement Application\newline
-            Built a scalable automation framework to evaluate and reallocate disk resources across 50,000+ servers and saved the organization 80K USD per month.}\newline\newline
-            \textit{Project: Network Configuration Analysis and Remediation Tool\newline
-            Created a web-based platform to scan, validate, and auto-correct complex network configurations across massive environments, saved hundres of staff time per month}
-        }
-	\entry
-		{2024}
-		{DevOps Build Engineer}
-		{Tencent - Timbre Games}
-		{
-            - Automated game build tasks on TeamCity, enhancing efficiency and reliability in build processes. \newline
-            - Designed and implemented an auto-scaling build farm, integrating Perforce, TeamCity, and AWS (EC2, EBS) to dynamically scale build agents based on demand.\newline
-            - Reduced build queue time by 80\%, significantly improving build turnaround time and developer productivity.\newline
-            - Configured seamless integration among key components to optimize workflows and resource utilization.\newline
-
-            \textit{Projects: Auto-scaling build farm\newline
-            Configuring the integration among different compoments like Perforce, Teamcity and AWS (EC2 and EBS) to allow 
-            auto scaling build agents on demand. Reduced build queue time by 80\%\newline}
-        }
-	\entry
-		{2022 -- 2023}
-		{Senior DevOps Engineer}
-		{Offworld Industries}
-		{
-            - Delivered a web application called \textit{Robomerge} to boost development productivity by 90\%\newline
-            - Improved website and game web service reliability by 40\% through enhanced development and operations.\newline
-            - Saved hundreds of team hours monthly by integrating an open-source utility into Unreal Engine workflows for streamlined conflict resolution.\newline
-
-            \textit{Projects: Robomerge\newline
-            Integrated an open-source utility in the Unreal Engine to the team’s process to automatically merge code branches and warn people on Slack about any conflicts. It saved the game team hundreds of hours every month to deal with merge conflicts\newline}
-        }
-    \entry
-		{2019 -- 2022}
-		{DevOps Site Reliability Engineer}
-		{Readymode}
-		{
-            - Automated infrastructure provisioning with Python, Ansible, and AutoIT, reducing setup time by 80\% and saving 100+ engineering hours weekly.\newline
-            - Built a deployment tool to help the company to increase system reliability by 200\%\newline
-            - Redesigned the Committee deployment tool, boosting system reliability by 200\% and improving visibility, flexibility, and rollback capabilities.\newline
-
-            \textit{Project: Infrastructure Provisioning Automation\newline
-            The sale team was doing too well, so our customers grew too rapidly. We needed more servers.  
-            We are asked to manually install OS and software dependencies repeatedly to keep up with our growth. I fully committed to the task assigned, but I learn how to automate the process whenever I have time. After a while, I managed make the process 80\% faster by automating with Python, Ansible and AutoIT.\newline\newline}
-            \textit{Project: Committee II\newline
-            As the number of our servers grow rapidly, code deployment became very unreliable. Things break often. We need to efficiently and reliably deploy the code with the flexibility on who gets what version. I rewrote our code deployment tool called “Committee”. It was faster and kept records in the database. The new deployment tool was faster and more reliable with visibility, flexibility and easy to rollback.\newline}
-        }
-		\entry
-		{2019}
-		{Software Development Engineer}
-		{Volkswagen - PayByPhone}
-		{
-            - Improved a .NET application a bit with test-drive development in C\#\newline
-            - Expanded the functionality of an API service by Integrating AWS web services\newline 
-            - Enhanced some AWS cloud infrastructure orchestration with terraform\newline\newline
-			\textit{Project: Parking Patroller software\newline
-            Developped an application to help the Patroller to check if someone has paid for parking
-            Providing parking info like grace period and time parked and time to expire
-            Giving tickets to parking violators \newline}
-        }
-	\entry
-		{2016 -- 2019}
-		{Intermediate Software Development Engineer}
-		{XenCALL}
-		{
-            - Led a team to build a sales pipeline system to help users to grow their sales by 200\%\newline
-            - Led a team to create a gamification system to train 100k+ users to learn software features\newline
-            - Led a team to create an advance search system to improve lead info search speed by 70+ \%\newline
-            - Built a licensing system to help the company to collect 30+ thousands dollars missing revenue\newline
-            - Created a system to track tech support agents stat to reduce management workload by 80\%\newline
-
-            \textit{Project: Gamification Training System\newline
-            Led a team to create a gamified training system with quests for learning complex software features. 
-            Collected user data for troubleshooting and assessment. 
-            Accelerated user onboarding and improved training engagement. \newline\newline}
-            \textit{Project: Sales Pipeline Optimization\newline
-            Developed a fast-performing application to track sales leads and bottlenecks. 
-            Used data caching, aggregation, and query optimization for speed. 
-            Improved customer ability to manage sales pipelines effectively.\newline}
-        }
-	\entry
-		{2014 -- 2016}
-		{Junior Software Development Engineer}
-		{XenCALL}
-		{
-            - Developed a payment website to help over 1000+ clients to make payment online easily\newline
-            - Developed call center data reports to improved data visibility to gain 100+ user complements\newline
-            \newline
-            \textit{Project: Tech Support Performance Management System\newline
-            Created a system to track tech support agents' work hours and calculate wages accurately. 
-            Ensured fair pay, motivated punctuality, and clarified promotion criteria.
-            \newline\newline}
-            \textit{Project: Agent, Call Log, and Dialer Reports\newline
-            Developed reports to extract and present call center data with filtering, sorting, and heatmap features. 
-            Improved data visibility, enabling better decision-making.\newline}
-        }
-    \entry
-		{2012 -- 2014}
-		{Interactive Test Engineer}
-		{Gaming Laboratories International}
-		{
-            - Performed source code review on gambling software to ensure fidelity\newline
-            - Developed software programs to automate repetitive testing procedures\newline
-            - Performed manual QA tests and regression tests to detect software bugs\newline\newline
-            \textit{Project: C++ program to automate testing process\newline
-            Developed a desktop tool to automate some game testing process. 
-            Automatically run slot machine games and verify if the result is expected.\newline}
-        }
+  \entry
+    {Nov2024--Now}
+    {Site Reliability Engineer}
+    {Shein, San Diego, CA, USA}
+    {
+      Ensure reliability and performance of SHEIN’s large-scale global infrastructure with 50,000+ servers and millions of daily requests.\\
+      - Designed object-oriented apps to optimize complex infrastructure workflows.\\
+      - Developed automation for disk/network ops, cutting manual work by 70\%+ across thousands of nodes.\\
+      - Achieved 99.998\% uptime with proactive on-call, testing, chaos drills, and resilience engineering.\\
+      - Led incident management with SLA goals: MTTA < 1 min, MTTD < 5 min, MTTR < 10 min.\\
+      - Managed Kubernetes clusters with thousands of nodes, ensuring zero downtime deployments.\\
+      - Improved MySQL, Redis, Kafka throughput, reducing avg query latency by 50\%.\\
+      - Implemented observability with VictoriaMetrics and Grafana, cutting false positives by 40\%.\\
+      - Scaled Azure infra globally with 30\% cost savings.\\
+      - Advanced Unix/Linux ops via shell scripting and CLI tools.\\
+      \textit{Projects: NSG Management App; Automated Disk Replacement saving \$80K/month.}
+    }
+  \entry
+    {Dec2024--Aug2024}
+    {Build and Release Engineer}
+    {Tencent - Timbre Games, Vancouver, Canada}
+    {
+      Automated game builds on TeamCity, designed auto-scaling build farm with Perforce, TeamCity, AWS EC2/EBS; reduced build queue time by 80\%.
+    }
+  \entry
+    {Jan2022--Dec2023}
+    {DevOps Engineer}
+    {Offworld Industries, New Westminster, Canada}
+    {
+      Delivered \textit{Robomerge} improving dev productivity 90\%; boosted service reliability 40\%; saved hundreds of monthly hours via Unreal Engine integration.
+    }
+  \entry
+    {Oct2019--Jan2022}
+    {Site Reliability Developer}
+    {Readymode, Vancouver, Canada}
+    {
+      Automated infra provisioning with Python, Ansible, AutoIT (80\% faster); redesigned deployment tool "Committee" for 200\% reliability increase.
+    }
+  \entry
+    {Jul2019--Oct2019}
+    {Software Development Engineer}
+    {Volkswagen - PayByPhone, Vancouver, Canada}
+    {
+      Improved .NET app via TDD in C\#; expanded AWS API; enhanced infra with Terraform.
+    }
+  \entry
+    {Jan2016--Jul2019}
+    {Intermediate Software Development Engineer}
+    {XenCALL, Vancouver, Canada}
+    {
+      Built sales pipeline system increasing sales 200\%; created gamified training used by 100K+ users; developed advanced lead search (70\% faster) and license recovery system.
+    }
+  \entry
+    {Mar2014--Jan2016}
+    {Junior Software Development Engineer}
+    {XenCALL, Vancouver, Canada}
+    {
+      Developed secure portal for 10K+ customers; created performance management and call report systems.
+    }
+  \entry
+    {Jul2012--Jan2014}
+    {Interactive Test Engineer}
+    {Gaming Laboratories International, Burnaby, Canada}
+    {
+      Reviewed source code for gambling compliance; automated testing with C++ and manual QA.
+    }
 \end{entrylist}
 
 %----------------------------------------------------------------------------------------
-%	EDUCATION
+%  EDUCATION
 %----------------------------------------------------------------------------------------
 
 \cvsect{Education}
 
 \begin{entrylist}
-	\entry
-		{2008 -- 2012}
-		{Bachelor's Degree of Computer Engineering (Software Option)}
-		{University of British Columbia}
-		{}
-\end{entrylist}
-\begin{entrylist}
-	\entry
-		{2016}
-		{Unity VR Developer Workshop}
-		{Circuit Steam}
-		{}
-\end{entrylist}
-\begin{entrylist}
-	\entry
-		{2018}
-		{Introduction to Agile and Scrum}
-		{Agile 42}
-		{}
-\end{entrylist}
-\begin{entrylist}
-	\entry
-		{2019}
-		{Introduction on Deep Learning}
-		{CloudXLab}
-		{}
-\end{entrylist}
-
-\cvsect{Volunteer Experience}
-
-\begin{entrylist}
-	\entry
-		{2024 -- Now}
-		{Technical Manager}
-		{Career Up Club}
-		{Website development and maintenance, events preparing and hosting}
+  \entry
+    {2008 -- 2012}
+    {Bachelor's Degree of Computer Engineering (Software Option)}
+    {University of British Columbia}
+    {}
 \end{entrylist}
 
 \end{document}
